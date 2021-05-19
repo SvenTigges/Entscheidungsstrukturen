@@ -77,3 +77,36 @@ else // mus der letzte Befehl sein
 }
 */
 
+/***** Fallunterscheidung / Case | Switch 1 *****/
+/*
+let firstName, job;
+firstName = "Jane"; 
+job = "driver";   // fährt Taxi!
+job = "diver";   // taucht im Rhein!
+job = "pilot";  // macht etwas anderes!
+job = "artist";  // malt ein Bild!
+job = "teacher"; // unterrichtet!
+job = "instructor"; // unterrichtet!
+
+switch (job) {
+    case "driver":
+        console.log(firstName + " fährt Taxi!");
+        break;
+    case "diver":
+        console.log(firstName + " taucht im Rhein!");
+        break;
+    case "artist":
+        console.log(firstName + " malt ein Bild!");
+        break;
+    case "teacher":
+    case "instructor":
+        console.log(firstName + " unterrichtet!");
+        break;
+
+
+    // für alle nicht bezeichneten Fälle..
+    default:
+        console.log(firstName + " macht etwas anderes!");
+        break;
+}
+*/
