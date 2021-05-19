@@ -110,3 +110,21 @@ switch (job) {
         break;
 }
 */
+
+/***** Fallunterscheidung / Case | Switch 2 *****/
+/*
+let a = 2;
+
+switch (true) {
+    case (a == 2):
+        console.log("a ist 2");
+        break;
+    case (a == 1):
+        console.log("a ist 1");
+        break;
+
+    default:
+        console.log("a hat einen anderen Wert");
+        break;
+}
+*/
