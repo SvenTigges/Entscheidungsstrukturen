@@ -5,7 +5,7 @@ let ageJohn, ageMark;
 let isJohnOlder, isJohnEqual;
 
 // Wertzuweisung 
-ageJohn = 30;
+ageJohn = 35;
 ageMark = 30;
 
 // Logische Aussagen / Tests
@@ -49,7 +49,13 @@ else
 } 
 */
 
-/*********** IF-ELSE-IF **********/
+/*********** Ternäre (ternary) Schreibweise *********/
+// if-else struktur
+/*
+console.log( (isJohnOlder) ? "John is older" : "Marc is older");
+*/
+
+/*********** IF-ELSE IF **********/
 // mit Alternativen Fällen (älter,jünger,gleich alt)
 /*
 if (isJohnOlder)
@@ -70,3 +76,4 @@ else // mus der letzte Befehl sein
     console.log("John ist jünger"); 
 }
 */
+
